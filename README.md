@@ -6,7 +6,9 @@
 
 ## Description
 
-_Ping-Pong is a simple application that asks the user for a number, and then displays every number in the range of 1 to the inputted number.  It will then replace every number evenly divisible by 3 with ping, every number divisible by 5 with pong, and every number divisible by 15 with ping-pong. This application was designed using the following specifications_
+_Ping-Pong is a simple application that asks the user for a number, and then displays every number in the range of 1 to the inputted number.  It will then replace every number evenly divisible by 3 with ping, every number divisible by 5 with pong, and every number divisible by 15 with ping-pong._
+
+### This application was designed using the following specifications:
 
 ##### _1. Test to see if input is a number._
 * Input: p
