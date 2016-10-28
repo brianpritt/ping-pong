@@ -1,0 +1,14 @@
+.warning-label{
+  color:red;
+  font-size: 1.3em;
+}
+
+#list-items li{
+  display:inline;
+}
+ h1, h3, h4{
+  text-align: center;
+}
+body{
+  background-color: #d3a292;
+}

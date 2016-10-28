@@ -9,23 +9,34 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="heading">
         <h1>Ping-Pong</h1>
+        <h4>Ping-Pong will count up to the number you give.</h4>
       </div>
-      <form id="input">
-        <div class="form-group">
-          <label for="number-input">Enter a number and see your life transformed:</label><br>
-          <input id="number-input" type="text">
-        </div>
-        <button type="submit" class="btn btn-warning">Find out!</button>
-      </form>
-      <br>
-      <div id="output" class="well">
-        <ul>
-          <!--text will be inserted here from JS -->
-        </ul>
-      </div>
+      <div class="row">
+        <form id="input" class=" col-md-3 col-sm-12 col-xs-12" >
+          <input id="number-input" type="text" class="form-control" value="Enter your number here:"><p class="warning-label"></p>
+          <button type="submit" class="btn btn-warning">Transform!</button>
+          <h5>Ping will transform the list of numbers by:</h5>
+          <ul>
+            <li>Changing numbers divisible by 3 to "ping"</li>
+            <li>Changing numbers divisible by 5 to "pong"</li>
+            <li>And numbers divisible by 15 to "ping-pong"</li>
+          </ul>
+        </form>
 
-    </div>
+        <div id="output" class="well col-md-6 col-sm-12 col-xs-12">
+          <ul id="list-items">
+            <!--text will be inserted here from JS -->
+          </ul>
+        </div>
+
+        <div id="about" class="col-md-3 col-sm-12 col-xs-12">
+          <h3>Brian Pritt</h3>
+          <h4>Intro to Programming</h4>
+          <h4>October 2016 Cohort</h4>
+        </div>
+      </div><!--end row-->
+    </div><!--end container -->
   </body>
 </html>
